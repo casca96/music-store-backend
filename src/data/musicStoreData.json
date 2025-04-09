@@ -1,0 +1,199 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Fender Stratocaster Electric Guitar",
+      "category": "Guitar",
+      "price": 799.99,
+      "stock": 15,
+      "description": "A classic electric guitar with a maple neck and three single-coil pickups.",
+      "manufacturer": "Fender",
+      "rating": 4.8,
+      "image_url": "https://www.fender.com/es-ES/electric-guitars/stratocaster/fender-player-stratocaster-electric-guitar"
+    },
+    {
+      "id": 2,
+      "name": "Yamaha Acoustic Guitar",
+      "category": "Guitar",
+      "price": 349.99,
+      "stock": 30,
+      "description": "A high-quality acoustic guitar with a spruce top and nato back and sides.",
+      "manufacturer": "Yamaha",
+      "rating": 4.5,
+      "image_url": "https://www.yamaha.com/yamahav2/images/stock/guitar.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Behringer UMC22 Audio Interface",
+      "category": "Accessories",
+      "price": 59.99,
+      "stock": 50,
+      "description": "A budget-friendly audio interface with USB 2.0 connection, suitable for home studios.",
+      "manufacturer": "Behringer",
+      "rating": 4.3,
+      "image_url": "https://www.behringer.com/product_image.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gibson Les Paul Standard Electric Guitar",
+      "category": "Guitar",
+      "price": 2499.99,
+      "stock": 10,
+      "description": "A top-of-the-line electric guitar with a mahogany body, maple top, and two humbucker pickups.",
+      "manufacturer": "Gibson",
+      "rating": 4.9,
+      "image_url": "https://www.gibson.com/LesPaulStandard.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Marshall DSL40C Guitar Amp",
+      "category": "Amplifier",
+      "price": 699.99,
+      "stock": 25,
+      "description": "A versatile 40-watt guitar amplifier with a classic Marshall sound.",
+      "manufacturer": "Marshall",
+      "rating": 4.7,
+      "image_url": "https://marshallamps.com/DSL40C.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Roland TD-27KV Electronic Drum Kit",
+      "category": "Drums",
+      "price": 1999.99,
+      "stock": 5,
+      "description": "An electronic drum kit with advanced features and great sound for both beginners and pros.",
+      "manufacturer": "Roland",
+      "rating": 4.6,
+      "image_url": "https://www.roland.com/global/products/td-27/images/td-27kv_main.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Akai Professional MPK Mini MK3 MIDI Controller",
+      "category": "Keyboard",
+      "price": 119.99,
+      "stock": 40,
+      "description": "A compact and portable MIDI controller with 25 velocity-sensitive keys and pads.",
+      "manufacturer": "Akai",
+      "rating": 4.4,
+      "image_url": "https://www.akaipro.com/MPKMiniMK3.jpg"
+    }
+  ],
+  "artists": [
+    {
+      "artist_id": 1,
+      "name": "Jimi Hendrix",
+      "bio": "Jimi Hendrix was an American rock guitarist, singer, and songwriter. Widely considered one of the greatest guitarists in the history of rock music.",
+      "albums": [
+        {
+          "album_id": 1,
+          "title": "Are You Experienced",
+          "release_date": "1967-05-12",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 2,
+          "title": "Electric Ladyland",
+          "release_date": "1968-10-25",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 3,
+          "title": "Axis: Bold As Love",
+          "release_date": "1967-12-01",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 4,
+          "title": "Band of Gypsys",
+          "release_date": "1970-03-25",
+          "genre": "Rock"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Jimi_Hendrix_1968.jpg"
+    },
+    {
+      "artist_id": 2,
+      "name": "The Beatles",
+      "bio": "The Beatles were an English rock band formed in Liverpool in 1960. The group became the most commercially successful and critically acclaimed band in the history of popular music.",
+      "albums": [
+        {
+          "album_id": 1,
+          "title": "Abbey Road",
+          "release_date": "1969-09-26",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 2,
+          "title": "Sgt. Pepper's Lonely Hearts Club Band",
+          "release_date": "1967-05-26",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 3,
+          "title": "Revolver",
+          "release_date": "1966-08-05",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 4,
+          "title": "Rubber Soul",
+          "release_date": "1965-12-03",
+          "genre": "Rock"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_Beatles_in_1967.jpg"
+    },
+    {
+      "artist_id": 3,
+      "name": "Led Zeppelin",
+      "bio": "Led Zeppelin was an English rock band formed in 1968, known for pioneering hard rock and heavy metal.",
+      "albums": [
+        {
+          "album_id": 5,
+          "title": "Led Zeppelin IV",
+          "release_date": "1971-11-08",
+          "genre": "Hard Rock"
+        },
+        {
+          "album_id": 6,
+          "title": "Physical Graffiti",
+          "release_date": "1975-02-24",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 7,
+          "title": "Houses of the Holy",
+          "release_date": "1973-03-28",
+          "genre": "Rock"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Led_Zeppelin_1973.jpg"
+    },
+    {
+      "artist_id": 4,
+      "name": "Queen",
+      "bio": "Queen is a British rock band formed in 1970. Known for their eclectic sound, the band's music combined rock with elements of opera, vaudeville, and pop.",
+      "albums": [
+        {
+          "album_id": 8,
+          "title": "A Night at the Opera",
+          "release_date": "1975-11-21",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 9,
+          "title": "News of the World",
+          "release_date": "1977-10-28",
+          "genre": "Rock"
+        },
+        {
+          "album_id": 10,
+          "title": "The Game",
+          "release_date": "1980-06-30",
+          "genre": "Rock"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Queen_in_1977.jpg"
+    }
+  ]
+}
