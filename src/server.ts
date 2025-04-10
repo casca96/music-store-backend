@@ -1,8 +1,9 @@
 import express, { Request, Response } from 'express';
 import musicStoreData from './data/musicStoreData.json';
 import cors from 'cors';
-import { artistsController } from './controller/artistsController.ts';
-import { productsController } from './controller/productsController.ts';
+import { artistsController } from './controller/artistsController';
+import { productsController } from './controller/productsController';
+import { contactController } from './controller/contactController';
 
 const app = express();
 const port = 3000;
@@ -17,18 +18,17 @@ app.get('/api/instruments', (req: Request, res: Response) => {
     res.json(musicStoreData.products);
 });
 
-app.get('/category/:category', productsController.getProductByCategory);
-app.get('/:id', productsController.getProductById);
+app.get('/api/instruments/category/:category', productsController.getProductByCategory);
+app.get('/api/instruments/:id', productsController.getProductById);
 
 app.get('/api/artists', (req: Request, res: Response) => {
     res.json(musicStoreData.artists);
 });
-app.get('/:id/albums', artistsController.getArtistAlbum);
-app.get('/:id', artistsController.getArtistById);
+app.get('/api/artist/:id/albums', artistsController.getArtistAlbum);
+app.get('/api/artist/:id', artistsController.getArtistById);
 
-app.get('/contact', (req: Request, res: Response) => {
-    res.json();
-});
+app.get('/api/contact', contactController.getContactInfo);
+app.post('/api/contact', contactController.submitContactForm);
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
