@@ -1,6 +1,6 @@
 import musicStoreData from '../data/musicStoreData.json';
 import {Request, Response} from "express";
-import {Artist} from "../types/artistTypes.ts";
+import {Artist} from "../types/artistTypes";
 
 function findArtist(artistId: number): Artist | undefined {
     return musicStoreData.artists.find(a => a.artist_id === artistId);
